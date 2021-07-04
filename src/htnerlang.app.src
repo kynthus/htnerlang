@@ -1,15 +1,21 @@
-{application, htnerlang,
-  [{description, "An OTP application"},
+{
+  application,
+  htnerlang,
+  [
+    {description, "An OTP application"},
     {vsn, "0.1.0"},
     {registered, []},
     {mod, {htnerlang_app, []}},
     {applications,
-      [kernel,
+      [
+        kernel,
         stdlib
-      ]},
+      ]
+    },
     {env, []},
     {modules, []},
-
-    {licenses, ["Apache 2.0"]},
-    {links, []}
-  ]}.
+    {contributors, ["Kynthus Aueaou"]},
+    {licenses, ["MIT"]},
+    {links, [{"GitHub", "https://github.com/kynthus/htnerlang"}]}
+  ]
+}.
